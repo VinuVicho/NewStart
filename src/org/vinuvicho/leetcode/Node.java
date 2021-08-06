@@ -5,7 +5,7 @@ import java.util.List;
 public class Node {
     public int val;
     public List<Node> children;
-
+    public int n = 0;
     public Node() {}
 
     public Node(int _val) {

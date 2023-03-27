@@ -11,7 +11,7 @@ public class PalindromePatiTwo {
         System.out.println(minCut("abaaaaabba")+ " 2");
     }
 
-    static int minCut(String s) {
+    static int minCutTry(String s) {
         short resultOne = -1;
         {
             int startIndex = 0;
@@ -60,7 +60,7 @@ public class PalindromePatiTwo {
         return resultTwo;
     }
     //Answer
-    int minCutAnswer(String s) {
+    static int minCut(String s) {
         int len = s.length();
         boolean[][] dp = new boolean[len][len];
         int[] min = new int[len];
@@ -73,7 +73,6 @@ public class PalindromePatiTwo {
                 }
             }
         }
-        // last element in the min array will be the number of minimum cuts required
         return min[len-1];
     }
 }

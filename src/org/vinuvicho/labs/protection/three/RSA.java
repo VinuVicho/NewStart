@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class RSA {
-
     private static final int p = 17;
     private static final int q = 37;
     private static final int e = 13;
@@ -28,7 +27,6 @@ public class RSA {
 
     private static HashMap<Character, Integer> createMap() {
         HashMap<Character, Integer> map = new HashMap<>();
-
         map.put('А', 1); map.put('Б', 2); map.put('В', 3); map.put('Г', 4);  map.put('Д', 5); map.put('Е', 6); map.put('Ї', 7);
         map.put('Ж', 8); map.put('З', 9); map.put('И', 10);  map.put('Й', 11); map.put('К', 12); map.put('Л', 13);
         map.put('М', 14); map.put('Н', 15); map.put('О', 16); map.put('П', 17); map.put('Р', 18); map.put('С', 19);

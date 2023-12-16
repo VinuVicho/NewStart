@@ -12,9 +12,7 @@ public class Two {
         //дешифр
         gamma = "ДЕРЖИКРАЙ";
         word = "Щ32071ФИТЛПИТШЩИК";
-
         decrypt(gamma,word);
-
     }
 
     public static void encrypt(String gamma, String word) {

@@ -8,7 +8,7 @@ import javax.imageio.ImageIO;
 
 public class MessageDecryption {
     public static void main(String[] args) {
-        String imageFilePath = "encrypted_image.png"; // шлях до файлу з зашифрованим зображенням
+        String imageFilePath = "encrypted_image.png";
 
         try {
             // завантажуємо зашифроване зображення з файлу
